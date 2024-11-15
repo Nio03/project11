@@ -24,7 +24,7 @@ export default function TherapistCard({ therapist }: TherapistCardProps) {
           <p className="mt-2 text-gray-600 text-sm line-clamp-2">{therapist.description}</p>
         </div>
         <div className="text-right">
-          <p className="text-lg font-bold text-indigo-600">${therapist.price} MXN</p>
+          <p className="text-lg font-bold text-indigo-600">${therapist.price} USD</p>
           <p className="text-sm text-gray-500">por sesión</p>
         </div>
       </div>
